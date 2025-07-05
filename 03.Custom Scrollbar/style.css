@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: crimson;
+}
+
+.card {
+  width: 700px;
+  background: #ccc;
+  padding: 20px;
+  margin: 20px;
+  font-family: sans sans-serif;
+  line-height: 28px;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  /* https://grabient.com/HQJgjAnANMEBzWAVgMwppA7DTKAsMEYAbBktqGBSHHFCMsQSskgAxR7CZhxA/ */
+
+background: conic-gradient(from 45deg, rgba(10, 74, 89, 1.000) 0.000deg, rgba(10, 74, 89, 1.000) 27.692deg, rgba(11, 82, 124, 1.000) 27.692deg, rgba(11, 82, 124, 1.000) 55.385deg, rgba(13, 92, 159, 1.000) 55.385deg, rgba(13, 92, 159, 1.000) 83.077deg, rgba(16, 104, 194, 1.000) 83.077deg, rgba(16, 104, 194, 1.000) 110.769deg, rgba(18, 118, 227, 1.000) 110.769deg, rgba(18, 118, 227, 1.000) 138.462deg, rgba(21, 133, 255, 1.000) 138.462deg, rgba(21, 133, 255, 1.000) 166.154deg, rgba(24, 150, 255, 1.000) 166.154deg, rgba(24, 150, 255, 1.000) 193.846deg, rgba(28, 169, 255, 1.000) 193.846deg, rgba(28, 169, 255, 1.000) 221.538deg, rgba(31, 188, 255, 1.000) 221.538deg, rgba(31, 188, 255, 1.000) 249.231deg, rgba(35, 209, 255, 1.000) 249.231deg, rgba(35, 209, 255, 1.000) 276.923deg, rgba(39, 230, 255, 1.000) 276.923deg, rgba(39, 230, 255, 1.000) 304.615deg, rgba(43, 251, 255, 1.000) 304.615deg, rgba(43, 251, 255, 1.000) 332.308deg, rgba(47, 255, 255, 1.000) 332.308deg 360.000deg);
+  border-radius: 100px;
+}

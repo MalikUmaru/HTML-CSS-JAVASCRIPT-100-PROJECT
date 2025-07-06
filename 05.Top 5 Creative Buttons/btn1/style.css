@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #ccc;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: all 1s;
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  border: 2px solid crimson;
+  padding: 20px 35px;
+  margin: 10px;
+  color: crimson;
+  position: relative;
+  overflow: hidden;
+}
+
+a:before {
+  content: "Thank You";
+  font-weight: bold;
+  position: absolute;
+  color: #ccc;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: crimson;
+  transform: translateY(-100%);
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover:before{
+    transform: translateY(0);
+}

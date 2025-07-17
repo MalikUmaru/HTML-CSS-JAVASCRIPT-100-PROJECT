@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #000;
+  font-family: sans-serif;
+}
+
+.contaiber-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.container {
+  padding: 2rem;
+  margin: 20px;
+  border: 3px solid #fff;
+}
+
+h1 {
+  color: #fff;
+}
+p {
+  font-size: 1.5em;
+  line-height: 2em;
+  color: #fff;
+}
+
+.scroll-indicator {
+  height: 8px;
+  width: calc(100% - 6em);
+  position: fixed;
+  top: 10px;
+  left: 3em;
+  border-radius: 3px;
+}
+
+.scroll-indicator .progress {
+  height: 100%;
+  width: 0%;
+  border-radius: 3px;
+  background: linear-gradient(30deg, #21d4fd, #b721ff);
+  transition: width 0.1s ease;
+}
